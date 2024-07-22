@@ -1,3 +1,22 @@
+
+Postman :-
+
+Set Header - 
+Content-Type - application/json
+Authorization - Bearer my-static-token
+
+req.body
+{
+  "pages": 3, // according to your choice
+  "proxy": "https://dentalstall.com/shop/"
+}
+
+
+
+
+
+
+
 You are tasked with developing a scraping tool using Python FastAPI framework to automate the information scraping process from the target [website](https://dentalstall.com/shop/). Your tool should be able to:
 
 1. Scrape the product name, price, and image from each page of the catalogue (it’s not necessary to open each product card).
